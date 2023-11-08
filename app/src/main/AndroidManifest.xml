@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.masterdetail.MasterDetailParaderoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.DetailFragment"
+            android:exported="true"
+            android:label="@string/title_activity_detail_fragment"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".ui.logindriver.LoginDriverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.registerdriver.RegisterDriverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.masterdetail.MasterDetailActivity"
+            android:exported="true"
+            android:label="@string/label_ruta"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".ui.navigationdrawer.NavigationDrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".ui.registeruser.RegisterUserActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".ui.list.ListBusFragment"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".ui.loginuser.LoginUserActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".ui.select_mode.SelectMode"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

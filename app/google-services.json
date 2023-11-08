@@ -1,0 +1,29 @@
+ {
+  "project_info": {
+    "project_number": "1002934701761",
+    "project_id": "tubus-e5d7f",
+    "storage_bucket": "tubus-e5d7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002934701761:android:27bbbd7c495c616e6bce40",
+        "android_client_info": {
+          "package_name": "com.imarjimenez.tubus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkofm2eMY9wZUnZYKozMh4_R2PV5OLD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

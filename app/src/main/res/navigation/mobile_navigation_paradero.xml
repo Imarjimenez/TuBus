@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@+id/first_paradero">
+
+    <fragment
+        android:id="@+id/first_paradero"
+        android:name="com.imarjimenez.tubus.ui.paradero1.ListParadero1Fragment"
+        android:label="list_paradero1"
+        tools:layout="@layout/fragment_paradero_ruta1" >
+        <action
+            android:id="@+id/action_first_paradero_to_second_paradero"
+            app:destination="@id/second_paradero" />
+        <action
+            android:id="@+id/action_first_paradero_to_third_paradero"
+            app:destination="@id/third_paradero" />
+    </fragment>
+    <fragment
+        android:id="@+id/second_paradero"
+        android:name="com.imarjimenez.tubus.ui.paradero1.ListParadero1Fragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_paradero_ruta1" />
+    <fragment
+        android:id="@+id/third_paradero"
+        android:name="com.imarjimenez.tubus.ui.paradero1.ListParadero1Fragment"
+        android:label="fragment_superman"
+        tools:layout="@layout/fragment_paradero_ruta1" />
+
+
+
+
+</navigation>

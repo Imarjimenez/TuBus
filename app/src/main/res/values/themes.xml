@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TuBus" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Asegúrate de que el tema no siga el modo noche del sistema -->
+
+
+        <!-- Personaliza tu tema claro aquí -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- ... Otros atributos de estilo ... -->
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.TuBus" />
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppCompat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AppCompat" parent="Base.Theme.AppCompat" />
+</resources>
